@@ -1,0 +1,57 @@
+@import './breakpoints.scss';
+
+html {
+  --header-primary: #fff;
+	--header-secondary: #b9bbbe;
+	--header-box-shadow: #18191c;
+	--text-normal: #dcddde;
+	--text-muted: #a3a6aa;
+	--text-link: #40b6e6;
+	--icon-active: #d9dbdd;
+	--icon-normal: #b9bbbe;
+	--icon-muted: #8e9297;
+  --background-primary: #36393f;
+	--background-secondary: #2f3136;
+	--background-secondary-alt: #292b2f;
+	--background-tertiary: #202225;
+	--background-accent: #4f545c;
+	--background-floating: #18191c;
+	--background-nested-floating: #2f3136;
+	--background-mobile-primary: #36393f;
+	--background-mobile-secondary: #2f3136;
+	--background-modifier-hover: rgba(79,84,92,0.4);
+	--background-modifier-active: rgba(79,84,92,0.6);
+	--background-modifier-selected: rgba(79,84,92,0.6);
+	--background-modifier-accent: rgba(79,84,92,0.48);
+	--background-overlay-cover: rgba(0, 0, 0, 0.8);
+	--icon-danger: #ED4245;
+	--icon-danger-muted: #cc393b;
+}
+html.light {
+  --background-primary: #fff;
+	--background-secondary: #f2f3f5;
+	--background-secondary-alt: #ebedef;
+	--background-tertiary: #e3e5e8;
+	--background-accent: #6a7480;
+	--background-floating: #fff;
+	--background-nested-floating: #fff;
+	--background-mobile-primary: #f8f9f9;
+	--background-mobile-secondary: #fff;
+	--background-modifier-hover: rgba(106,116,128,0.16);
+	--background-modifier-active: rgba(106,116,128,0.24);
+	--background-modifier-selected: rgba(106,116,128,0.24);
+	--background-modifier-accent: rgba(106,116,128,0.24);
+	--background-overlay-cover: rgba(0, 0, 0, 0.8);
+  --header-primary: #060607;
+	--header-secondary: #4f5660;
+	--header-box-shadow: #696c72;
+	--text-normal: #2e3338;
+	--text-muted: #5e6772;
+	--text-link: #40b6e6;
+	--icon-active: #343a42;
+	--icon-muted: #6a7480;
+	--icon-normal: #4f5660;
+	--icon-danger: #cc393b;
+	--icon-danger-muted: #ED4245;
+}
+

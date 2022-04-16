@@ -1,0 +1,116 @@
+.SavedOverlay {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  // height: fit-content;
+  h3 {
+    // overflow:overflow: scroll; hidden;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px;
+  }
+  h4 {
+    font-family: 'Whitney_Medium';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    &.section {
+      font-family: 'Whitney_SemiBold';
+      color: var(--text-normal);
+      margin: 12px 0;
+    }
+  }
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--header-secondary);
+  }
+  .embeds {
+    padding: 0 16px 16px 16px;
+    overflow: scroll;
+    // margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 8px;
+    // background-color: red;
+    .embed {
+      // overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px;
+      border: 1px solid var(--background-modifier-accent);
+      border-radius: 8px;
+      width: 100%;
+      .info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        // max-width: 80%;
+        // text-overflow: ellipsis;
+        // overflow: hidden;
+        // white-space: nowrap;
+        input {
+          flex: 1;
+          width: 90%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          font-family: 'Whitney_Medium';
+          color: var(--header-secondary);
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          outline: none;
+          background-color: transparent;
+          border: none;
+          height: 18px;
+          &.section {
+            font-family: 'Whitney_SemiBold';
+            color: var(--text-normal);
+            margin: 12px 0;
+          }
+        }
+      }
+      .options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        .edit {
+          min-height: 20px;
+          min-width: 20px;
+          max-height: 20px;
+          max-width: 20px;
+          svg {
+            stroke: var(--icon-muted);
+            &:hover {
+              cursor: pointer;
+              stroke: var(--icon-normal);
+            }
+          }
+        }
+        .tresh {
+          min-height: 20px;
+          min-width: 20px;
+          max-height: 20px;
+          max-width: 20px;
+          svg {
+            stroke: var(--icon-danger-muted);
+            &:hover {
+              cursor: pointer;
+              stroke: var(--icon-danger);
+            }
+          }
+        }
+      }
+    }
+  }
+}
